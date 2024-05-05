@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
+       
+        <link rel="stylesheet" href="prism.css">
+        <script src="prism.js"></script>
+        <link rel="stylesheet" href="style.css">
+    <title>HTML Cheatsheet</title>
+</head>
+
+<body>
+    <nav>
+        <span class="logo"><img src="copy.png" alt=""></span>
+        <div class="content center">
+            Access the HTML CheatSheet
+            Created by Aman Ahamed
+        </div>
+    </nav>
+    <div class="container">
+        <ol>
+            <li><b>HTML Boilerplate:</b> The Boilerplate is nothing but starting template that is used to write html code
+                <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+   Only this statement will be displayed in the browser output 
+&lt;/body&gt;
+&lt;/html&gt; </code></pre>
+        </li> 
+       
+            <li><b>p Tag:</b> The &lt;p&gt; tag defines the paragraph tag.It is used when we are writing any paragraph,
+                <pre class="language-html"><code>&lt;p&gt;This is a paragraph,a normal paragraph&lt;/p&gt; </code></pre>
+            </li>
+
+            <li><b>Comments:</b>The Comments in HTML are used to document the code,so that it is easy to understand what that piece of code is doing,
+                it is written as,
+                <pre class="language-html"><code>&lt;!--This statement will not be displayed into the output--&gt;</code></pre>
+            </li>
+
+            <li><b>The Heading Tag</b>The heading tag describes the heading of your page.There are normally 6 headings 
+                from &lt;h1&gt; to &lt;h6&gt;.The highest font size is heading 1 and the lowest font-size heading is heading 6
+                <pre class="language-html"><code>
+                    &lt;h1&gt;I'm the largest heading&lt;/h1&gt;
+                    &lt;h2&gt;I'm the second largest heading&lt;/h2&gt;
+                    &lt;h3&gt;I'm the third largest heading&lt;/h3&gt;
+                    &lt;h4&gt;I'm the fourth largest heading&lt;/h4&gt;
+                    &lt;h5&gt;I'm the fifth largest heading&lt;/h5&gt;
+                    &lt;h6&gt;I'm the least heading&lt;/h6&gt;
+                </code></pre>
+            </li> 
+
+            <li><b>The anchor tag</b> The anchor tag is used to deal with links of any website.
+                It is used to navigate from one web page to other web page,the url of the webpage that you want
+                to visit is given in the href attribute.If you want to go to the google's web page
+                <pre class="language-html"><code>&lt;a href="www.google.com"&gt;Click me to go to the google's webpage&lt;/a&gt;</code></pre>
+            </li> 
+
+            <li><b>The image tag</b> The &lt;img&gt; tag is used to add an image to the html page.
+                It also has an alt attribute that is used as an alternate text to that image when the image is not 
+                loaded.The name or the complete path to that image is given in the src attribute.
+                <pre class="language-html"><code>&lt;img src="home.jpg" alt="This is a home image"&gt;</code></pre>
+            </li> 
+
+            <li><b>Bold,Italic and Underline tags</b> The bold tag is used to make the text bold,
+                and the italic tag is used to make the text as italic and if you want any text to be underlined
+                underline tag is used.
+                <pre class="language-html"><code>
+                    &lt;b&gt;I'm Bold boy&lt;/b&gt;
+                    &lt;i&gt;I'm italic boy&lt;/i&gt;
+                    &lt;u&gt;I'm an underlined text&lt;/u&gt;
+                </code></pre>
+            </li> 
+
+            <li><b>New Line and Horizontal line tags</b>The &lt;br&gt; tag is used to add a new line between any two sentences or the paragraphs.
+                The &lt;hr&gt; tag is used to add a horizontal line that acts as a separator between any two HTML elements.
+                <pre class="language-html"><code>
+                    &lt;p&gt;I'm line number 1&lt;/p&gt;
+                    &lt;br&gt;
+                    &lt;p&gt;I'm line number 2&lt;/p&gt;
+
+                    &lt;p&gt;Below me there is a horizontal line&lt;/p&gt;
+                    &lt;hr&gt;
+                    &lt;p&gt;Above me there is a horizontal line&lt;/p&gt;
+                </code></pre>
+            </li> 
+
+            <li><b>Sub-Script and SuperScript tags</b> The subscript tag just lowers the character,and superscript tag 
+                just raises the character.
+                <pre class="language-html"><code>
+                    The chemical formual of the water is:
+                    H&lt;sub&gt;2&lt;/sub&gt;0
+
+                    The polynomial equation is:
+                    ax&lt;sup&gt;3&lt;/sup&gt;+bx&lt;sup&gt;2&lt;/sup&gt;+cx+d
+                </code></pre>
+            </li> 
+
+            <li><b>Preserving the white spaces</b> HTML always ignores the extra spaces.
+                But if you the extra spaces included in the html page add pre tag. <pre class="language-html"><code>&lt;pre&gt; you are away from me                        Yes I'm away from you&lt;/pre&gt;
+                     </code></pre>
+            </li> 
+
+            <li><b>HTML Lists</b> The Lists are used to store the elements sequentially(one after the other)
+                So,html lists are also used for the same.
+                They are enclosed within the &lt;li&gt; &lt;/li&gt; tags.
+                Ordered lists:They are numbered and enclosed withing the &lt;ol&gt; &lt;/ol&gt; tags.
+                <pre class="language-html"><code> 
+                    &lt;ol&gt;
+                        &lt;li&gt;Bread&lt;/li&gt;
+                        &lt;li&gt;Butter&lt;/li&gt;
+                        &lt;li&gt;eggs&lt;/li&gt;
+                        &lt;li&gt;soap&lt;/li&gt;
+                    &lt;/ol&gt;</code>
+                </pre>
+            </li> 
+
+            <li><b>HTML unordered List</b> They are not numbered just they are written in the bullet points
+                they are written inside the &lt;ul&gt; &lt;/ul&gt; tags. 
+                <pre class="language-html"><code>
+                &lt;ul&gt;
+                    &lt;li&gt;Bread&lt;/li&gt;
+                    &lt;li&gt;Butter&lt;/li&gt;
+                    &lt;li&gt;eggs&lt;/li&gt;
+                    &lt;li&gt;soap&lt;/li&gt;
+                &lt;/ul&gt;</code> 
+                
+                
+                
+                </code></pre>
+            </li> 
+
+            <li><b>HTML Table Tag:</b> Just like a normal table,HTML table also used to
+                design a table to store the values.It has the rows and the columns.
+                <pre class="language-html"><code>
+                    &lt;table&gt;
+                        &lt;tr&gt;
+                            &lt;th&gt;Name&lt;/th&gt;
+                            &lt;th&gt;Age&lt;/th&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;Ajay&lt;/td&gt;
+                            &lt;td&gt;20&lt;/td&gt;
+                        &lt;/tr&gt;
+                        &lt;tr&gt;
+                            &lt;td&gt;Aman&lt;/td&gt;
+                            &lt;td&gt;20&lt;/td&gt;
+                        &lt;/tr&gt;
+                    &lt;/table&gt;
+                </code></pre>
+            </li> 
+
+            <li><b>HTML Forms:</b> HTML forms are used for collecting the data from the user
+            <pre class="language-html"><code>
+            &lt;form action=""&gt;
+                Name:&lt;input type="text" name="" id="" placeholder="Enter your Name"&gt;
+                password: &lt;input type="password" name="" id="" placeholder="Enter your password"&gt;
+                Email: &lt;input type="email" name="" id="" placeholder="Enter your mail address"&gt;
+                &lt;textarea name="" id="" cols="30" rows="10" placeholder="Any concerns? drop your query."&gt;&lt;/textarea&gt;
+                &lt;button&gt;It is a normal button&lt;/button&gt;
+            &lt;/form&gt;  </code></pre>
+            </li> 
+
+                <pre class="language-html"><code>
+                    Code By
+                    <h1>Aman Ahamed</h1>
+                    <p>Copyright &copy CodeTales.in</p>
+                </code></pre>
+            
+
+        </ol>
+    </div>
+</body>
+
+</html>
